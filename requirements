@@ -1,0 +1,10 @@
+# For running tests
+pytest >= 3.3.0  # Testing framework.
+python 3.6+
+
+API test actions
+1. Verify correct HTTP status code.
+2. Verify response payload.
+3. Verify response headers.
+4. Verify correct application state.**
+5. Verify basic performance sanity.
